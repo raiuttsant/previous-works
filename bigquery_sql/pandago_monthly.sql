@@ -83,7 +83,6 @@ year, month, prev_order_number DESC
 
 SELECT 
   updated_month.vendor, updated_month.year, updated_month.month, 
-  -- next_period_year, next_period_month,
   order_number, delivery_fee, delivery_time_min_avg, late_by_30_min,
   prev_order_number, prev_delivery_fee, prev_delivery_time_min_avg, prev_late_by_30_min
 FROM updated_month
