@@ -1,5 +1,5 @@
 SELECT 
- --  monthly basis
+ --  monthly basis, also convert from string to datetime
   EXTRACT(YEAR FROM CAST(created_date_utc AS DATETIME)) AS year,
   EXTRACT(MONTH FROM CAST(created_date_utc AS DATETIME)) AS month,
   global_entity_id AS region,
